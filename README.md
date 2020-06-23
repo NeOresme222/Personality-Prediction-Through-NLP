@@ -24,20 +24,22 @@ In the MB system, there are four bimodal classifiers resulting in 16 distinct cl
 
 
 ## ML Model Accuracy 
-  Classification ML models were run to test the accuracy of prediction for each MB Personality type. Random chance would suggest a 6.25% predicitive success rate. A Multinomial Naive Bayes model performed at 21.1% and a Random Forest model performed at 26.9% accuracy. Although a dramatic improvement (over 4x the predicitve power), the models were deemed incapable of differntiating between 16 distinct classifications. 
-   Bernoulli Naive Bayes, Random Forest, and Gradient Boosted Random Forest models were trained and juxtaposed in their performance. 
+  Classification ML models were run to test the accuracy of prediction for each MB Personality type. Random chance would suggest a 6.25% predicitive success rate. A Multinomial Naive Bayes model performed at 21.1% and a Random Forest (RF) model performed at 26.9% accuracy. Although a dramatic improvement (over 4x the predicitve power), the models were deemed incapable of differntiating between 16 distinct classifications. 
+   Bernoulli Naive Bayes (BNB) , Random Forest (RF) , and Gradient Boosted Random Forest (GBRF) models were trained and juxtaposed in their performance. 
 
 
 Personality Characteristic | Bernoulli NB | Random Forest | Gradient Boosted RF
 ---------------------|------------|------------|----------------|
-Introvert | 76.988 | 76.950 | 74.914
-Sensing | 88.091 | 86.208 | 81.100
-Thinking | 86.055 | 69.804 | 73.185
-Perceiving | 63.043 | 60.738 | 61.544
+Introvert | 76.988% | 76.950% | 74.914%
+Sensing | 88.091% | 86.208% | 81.100%
+Thinking | 86.055% | 69.804% | 73.185%
+Perceiving | 63.043% | 60.738% | 61.544%
 
-  
 
-## Word Clouds for Each Major Classifier
+## Conclusion
+  The BNB model outperformed the others in all binary classifications, with a top accuracy of 88%. However, this closely approximates the actual distribution of the traits, so the model may have learned to simply classify by guessing. 
+  Word clouds were created from the text vectorization for each primary personality classifier to illustrate the top 20 most important words used by a personality subclass. 
+
 ### Judging/Perceiving
 ![](img/perceiving.png)
 ### Extrovert/Introvert
@@ -46,7 +48,5 @@ Perceiving | 63.043 | 60.738 | 61.544
 ![](img/sensing.png)
 ### Feeling/Thinking
 ![](img/thinking.png)
-
-## Conclusion 
 
 
