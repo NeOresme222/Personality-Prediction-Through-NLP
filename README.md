@@ -10,7 +10,7 @@
 Based on Carl Jung's suppositions of the psyche, the MB personality classification system is largely discredited as a pseudoscience and concerns have been raised about conflicts of interest in the legitiamcy of research. However, it does overlap in some character trait identficiation metrics with the scientifically validated 'Big Five' (such as extroversion/introversion). What the MB system explicitly has going for it is its established popularity and ease of access, making it much more prolific in accessing data. 
 In the MB system, there are four bimodal classifiers resulting in 16 distinct classifications. The 16 personalities are:
 
-![](img/personalites.png)
+![](img/personalities.png)
 
 
 ## Personality Distribution
